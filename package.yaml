@@ -25,8 +25,9 @@ executables:
     dependencies:
     - base
     - diochx
-    - http-conduit
     - bytestring
+    - wreq
+    - lens
 tests:
   diochx-test:
     main: Spec.hs
