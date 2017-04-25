@@ -28,6 +28,8 @@ executables:
     - bytestring
     - wreq
     - lens
+    - aeson
+    - lens-aeson
 tests:
   diochx-test:
     main: Spec.hs
